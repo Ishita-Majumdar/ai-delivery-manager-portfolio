@@ -1,0 +1,4 @@
+risk_id,risk,impact_rating,owner_role,status,trigger,potential_impact,mitigation
+R-01,Vault access decision delayed,High,Security lead,Open,Vault approval,Deployment/test readiness may slip,Escalate approval and document compensating controls
+R-02,External IdP metadata unavailable,High,IAM lead,Open,External partner response,E2E coverage may be incomplete,Agree date with partner and contingency test scope
+R-03,Security dependency remediation late,High,Security engineer,Open,Package validation,Go/no-go could be impacted,Validate upgraded dependency and rescan
