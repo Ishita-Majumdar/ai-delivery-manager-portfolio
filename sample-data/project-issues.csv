@@ -1,0 +1,13 @@
+issue_key,title,workstream,workflow_status,priority,due_date,blocked,owner_role,gitlab_state,notes
+INF-01,Provision Kubernetes production cluster,Infrastructure,done,high,2026-11-06,No,Infra engineer,CLOSED,Completed cluster setup and validation
+INF-02,Configure load balancer and ingress,Infrastructure,done,high,2026-11-12,No,Infra engineer,CLOSED,Ingress verified in staging
+INF-03,Integrate Vault secrets,Infrastructure,blocked,critical,2026-11-17,Yes,Platform engineer,OPEN,Security approval for Vault access policies pending
+INF-04,Configure production observability,Infrastructure,in_progress,medium,2026-11-28,No,SRE engineer,OPEN,Metrics dashboards in progress
+AUTH-01,Deploy OIDC service,Identity,done,high,2026-11-13,No,IAM engineer,CLOSED,OIDC test deployment complete
+AUTH-02,Implement MFA authentication,Identity,in_progress,critical,2026-11-24,No,IAM engineer,OPEN,Integration testing not yet signed off
+AUTH-03,Integrate external identity providers,Identity,blocked,high,2026-11-18,Yes,IAM engineer,OPEN,External test metadata and credentials pending
+SEC-01,Remediate critical findings,Security,blocked,critical,2026-11-21,Yes,Security engineer,OPEN,Dependency upgrade awaiting validation
+SEC-02,Confirm security architecture,Security,review,high,2026-11-27,No,Security architect,OPEN,Review sign-off pending
+TEST-01,Execute end-to-end authentication tests,Testing,to_do,high,2026-12-03,No,QA engineer,OPEN,Depends on IdP integration
+REL-01,Finalize production runbook,Release,to_do,medium,2026-12-07,No,Release manager,OPEN,Draft and rollback checklist pending
+REL-02,Conduct go/no-go readiness review,Release,to_do,critical,2026-12-15,No,Delivery manager,OPEN,Requires security and testing evidence
